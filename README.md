@@ -9,12 +9,21 @@ It will automatically format your C++ closer to the slightly-quirky format laid 
 Note that the tool does not have perfect coverage; some amount of work is still necessary
 to make your code fully adhere to the style guide.
 
+Instructions
+-------------
+
+     $ cd <my-project>
+     $ curl "https://raw.github.com/balasanjay/buhrmatter/master/format-style" > .clang-format
+     $ clang-format -i *.h *.cc
+
+Note that `clang-format` is idempotent, so you can run it as many times as you want.
+
 Requirements
 ------------
 
 In order to use this tool, you need two things.
 + `clang-format`
-+ A style-file
++ A style-file (this is provided by this repo; see the `curl` command above)
 
 There are two ways to get `clang-format`; you can build from source, or just use the provided binaries. 
 Note that building from source can take a considerable amount of time.
@@ -36,11 +45,3 @@ Using the provided binaries
 ---------------------------
 TODO(sanjay): fill out this section.
 
-Instructions
--------------
-
-     $ cd <my-project>
-     $ curl "https://raw.github.com/balasanjay/buhrmatter/master/format-style" > .clang-format
-     $ clang-format -i *.h *.cc
-
-Note that `clang-format` is idempotent, so you can run it as many times as you want.
