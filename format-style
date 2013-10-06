@@ -1,0 +1,16 @@
+AlignTrailingComments: true
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+BinPackParameters: true
+ColumnLimit: 120
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+IndentCaseLabels: true
+IndentWidth: 4
+MaxEmptyLinesToKeep: 1
+PointerBindsToType: false
+SpaceAfterControlStatementKeyword: true
+SpaceBeforeAssignmentOperators: true
+SpaceInEmptyParentheses: false
+SpacesInCStyleCastParentheses: true
+SpacesInParentheses: true
+TabWidth: 4
