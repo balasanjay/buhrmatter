@@ -6,7 +6,7 @@ AlwaysBreakTemplateDeclarations: true
 BasedOnStyle: Google
 BinPackParameters: true
 BreakBeforeBraces: Attach
-ColumnLimit: 120
+ColumnLimit: 80
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
 IndentCaseLabels: true
 IndentWidth: 4
