@@ -9,6 +9,12 @@ It will automatically format your C++ closer to the slightly-quirky format laid 
 Note that the tool does not have perfect coverage; some amount of work is still necessary
 to make your code fully adhere to the style guide.
 
+Disclaimer
+---------
+
+`clang-format` rewrites your source-code. Make sure to have your code in a source-control system, 
+so it can't do any permanent damage.
+
 Instructions
 -------------
 
@@ -43,5 +49,5 @@ After executing the instructions above, `clang-format` will be in `~/llvm/Debug+
 
 Using the provided binaries
 ---------------------------
-TODO(sanjay): fill out this section.
+See releases [here](https://github.com/balasanjay/buhrmatter/releases).
 
