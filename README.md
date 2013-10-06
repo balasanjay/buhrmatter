@@ -40,7 +40,7 @@ Instructions
 -------------
 
      $ cd <my-project>
-     $ curl "https://github.com/balasanjay/buhrmatter/blob/master/format-style" > .clang-format
+     $ curl "https://raw.github.com/balasanjay/buhrmatter/master/format-style" > .clang-format
      $ clang-format -i *.h *.cc
 
 Note that `clang-format` is idempotent, so you can run it as many times as you want.
