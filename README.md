@@ -8,3 +8,16 @@ It will automatically format your C++ closer to the slightly-quirky format laid 
 
 Note that the tool does not have perfect coverage; some amount of work is still necessary
 to make your code fully adhere to the style guide.
+
+Building clang-format from source
+==
+
+    $ cd ~
+    $ svn co http://llvm.org/svn/llvm-project/llvm/trunk llvm
+    $ cd llvm/tools
+    $ svn co http://llvm.org/svn/llvm-project/cfe/trunk clang
+    $ cd ~/llvm
+    $ ./configure
+    $ make
+
+After executing the instructions above, `clang-format` will be in `~/llvm/Debug+Asserts/bin/clang-format`.
