@@ -1,4 +1,4 @@
-AccessModifierOffset: -4
+AccessModifierOffset: -2
 AlignTrailingComments: true
 AllowShortIfStatementsOnASingleLine: false
 AllowShortLoopsOnASingleLine: false
@@ -9,7 +9,7 @@ BreakBeforeBraces: Attach
 ColumnLimit: 80
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
 IndentCaseLabels: true
-IndentWidth: 4
+IndentWidth: 2
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: Inner
 PointerBindsToType: false
@@ -19,5 +19,5 @@ SpaceInEmptyParentheses: false
 SpacesInCStyleCastParentheses: true
 SpacesInParentheses: true
 Standard: Cpp03
-TabWidth: 4
-UseTab: Always
+TabWidth: 2
+UseTab: Never
