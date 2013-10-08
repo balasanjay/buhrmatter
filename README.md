@@ -49,5 +49,7 @@ After executing the instructions above, `clang-format` will be in `~/llvm/Debug+
 
 Using the provided binaries
 ---------------------------
-See releases [here](https://github.com/balasanjay/buhrmatter/releases).
+[For OSX](https://github.com/balasanjay/buhrmatter/releases)
+
+[For Linux](https://dl.dropboxusercontent.com/u/2795539/clang-format) (thanks, Kalsi!)
 
