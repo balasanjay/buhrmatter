@@ -31,19 +31,17 @@ In order to use this tool, you need two things.
 + `clang-format`
 + A style-file (this is provided by this repo; see the `curl` command above)
 
-There are two ways to get `clang-format`; you can build from source, or just use the provided binaries. 
+There are three ways to get `clang-format`; you can use a package manager, build from source, or just use the provided binaries. 
 Note that building from source can take a considerable amount of time.
 
-Using Package Managers
----------------------------------
+#### Using Package Managers
 With OS X and [recent versions](http://nacho4d-nacho4d.blogspot.com/2013/11/clang-format.html) of homebrew, you can run:
 
 ```bash
 brew install clang-format
 ```
 
-Building `clang-format` From Source
----------------------------------
+#### Building `clang-format` From Source
 
 ```bash
 $ cd ~
@@ -57,8 +55,8 @@ $ make
 
 After executing the instructions above, `clang-format` will be in `~/llvm/Debug+Asserts/bin/clang-format`.
 
-Using the Provided Binaries
----------------------------
+#### Using the Provided Binaries
+
 [For OSX](https://github.com/balasanjay/buhrmatter/releases)
 
 [For Linux](https://dl.dropboxusercontent.com/u/2795539/clang-format) (thanks, Kalsi!)
