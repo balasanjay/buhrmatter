@@ -34,20 +34,30 @@ In order to use this tool, you need two things.
 There are two ways to get `clang-format`; you can build from source, or just use the provided binaries. 
 Note that building from source can take a considerable amount of time.
 
-Building clang-format from source
+Using Package Managers
+---------------------------------
+With OS X and [recent versions](http://nacho4d-nacho4d.blogspot.com/2013/11/clang-format.html) of homebrew, you can run:
+
+```bash
+brew install clang-format
+```
+
+Building `clang-format` From Source
 ---------------------------------
 
-    $ cd ~
-    $ svn co http://llvm.org/svn/llvm-project/llvm/trunk llvm
-    $ cd llvm/tools
-    $ svn co http://llvm.org/svn/llvm-project/cfe/trunk clang
-    $ cd ~/llvm
-    $ ./configure
-    $ make
+```bash
+$ cd ~
+$ svn co http://llvm.org/svn/llvm-project/llvm/trunk llvm
+$ cd llvm/tools
+$ svn co http://llvm.org/svn/llvm-project/cfe/trunk clang
+$ cd ~/llvm
+$ ./configure
+$ make
+```
 
 After executing the instructions above, `clang-format` will be in `~/llvm/Debug+Asserts/bin/clang-format`.
 
-Using the provided binaries
+Using the Provided Binaries
 ---------------------------
 [For OSX](https://github.com/balasanjay/buhrmatter/releases)
 
